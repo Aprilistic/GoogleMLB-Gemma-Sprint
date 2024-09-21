@@ -118,7 +118,7 @@ We conducted training on Kaggle using Tesla T4 x 2 GPUs and implemented our mode
 | Gemma2-9b-it | LoRA, 4-bit Quantization | 1 | 3h 49m 35s |
 
 ## Models
-
+![model_repo](images/model_repo.png)
 Our fine-tuned models are available on HuggingFace:
 
 - Gemma 2b: [jia6776/korean_history_1897_1910_gemma2_2b_lora](https://huggingface.co/jia6776/korean_history_1897_1910_gemma2_2b_lora)
