@@ -1,4 +1,5 @@
 # AI Newspaper Instructor
+![thumbnail](images/thumbnail.webp)
 
 ## Table of Contents
 - [Abstract](#abstract)
@@ -43,7 +44,6 @@ Our project creates an AI instructor specializing in the Korean Empire period's 
 
 
 # Data
-
 ## Preprocessing
 
 ![Text length distribution](images/image.png)
@@ -170,6 +170,13 @@ This project successfully fine-tuned Gemma models using a QA dataset derived fro
 Our methodology involved extracting information from RDF-formatted newspaper articles and using GPT4o-mini to generate a robust QA dataset. By fine-tuning Gemma2-2b-it and Gemma2-9b-it models using LoRA and Quantization techniques, we developed an educational tool tailored to students, providing accurate and clear responses to historical questions.
 
 This work contributes significantly to improving historical education by leveraging AI to overcome challenges related to unreliable online information, fostering a better understanding of Korean history during a crucial period of its past.
+
+
+To explore our project results, you can access:
+
+- Our QA Dataset: [BLACKBUN/old_korean_newspaper_1897_1910_economy_politic_qa](https://huggingface.co/datasets/BLACKBUN/old_korean_newspaper_1897_1910_economy_politic_qa)
+- Fine-tuned Gemma 2b Model: [jia6776/korean_history_1897_1910_gemma2_2b_lora](https://huggingface.co/jia6776/korean_history_1897_1910_gemma2_2b_lora)
+- Fine-tuned Gemma 9b Model: [BLACKBUN/korean_history_1897_1910_gemma2_9b_lora_q4](https://huggingface.co/BLACKBUN/korean_history_1897_1910_gemma2_9b_lora_q4)
 
 # References
 
