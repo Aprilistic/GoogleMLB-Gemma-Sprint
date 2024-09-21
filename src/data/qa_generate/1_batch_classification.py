@@ -8,8 +8,8 @@ from openai import OpenAI
 
 model = "gpt-4o-mini"
 
-input_path = '../../../data/newspaper/economy_politic_split'
-output_path = '../../../data/newspaper/economy_politic_qa'
+input_path = '../../../data/newspaper/economy_politic_split/train'
+output_path = '../../../data/newspaper/economy_politic_qa/train'
 
 os.makedirs(output_path, exist_ok=True)
 os.makedirs(os.path.join(output_path, 'request'), exist_ok=True)
