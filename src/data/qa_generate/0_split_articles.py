@@ -3,7 +3,7 @@ import os
 
 # Define the input and output paths
 input_path = '../../../data/newspaper/old_korean_newspaper_economy_politic_min500char.csv'
-output_dir = '../../../data/newspaper/economy_politic_split'
+output_dir = '../../../data/newspaper/economy_politic_split/train'
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
