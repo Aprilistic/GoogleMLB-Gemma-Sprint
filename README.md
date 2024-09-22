@@ -105,8 +105,9 @@ The dataset is available on HuggingFace: [BLACKBUN/old_korean_newspaper_1897_191
 
 
 # Training
+<img width="924" alt="Screenshot 2024-09-22 at 9 44 15 AM" src="https://github.com/user-attachments/assets/6618057d-0329-47dd-b0dc-dcba165bf33c">
 
-![Training Process](images/Screenshot_2024-09-21_at_10.52.19_PM.png)
+
 
 ## Environment
 
