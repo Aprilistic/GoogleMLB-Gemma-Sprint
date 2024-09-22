@@ -58,12 +58,12 @@ Our initial dataset comprised 441,133 articles, with 322,921 in text format. Aft
 
 ![QA Generation Process](images/Screenshot_2024-09-21_at_11.21.17_PM.png)
 
-We created our QA dataset by selecting articles from the social/political domain with over 500 characters. This process yielded approximately 10,000 data points, which were used to generate QA pairs. The dataset includes:
+We created our QA dataset by selecting articles from the social/political domain with over 500/490 characters (each for train/test). This process yielded approximately 10,000 data points, which were used to generate QA pairs. The dataset includes:
 
 - RDF Dataset File (TTL format) for categorized newspaper articles
 - QA Dataset File with Question and Answer columns
 
-We employed GPT4-mini to batch process and synthesize QA pairs from the articles. The final dataset consists of 8,946 training samples and 284 test samples.
+We employed GPT4o-mini to batch process and synthesize QA pairs from the articles. The final dataset consists of 8,946 training samples and 284 test samples.
 
 The dataset is available on HuggingFace: [BLACKBUN/old_korean_newspaper_1897_1910_economy_politic_qa](https://huggingface.co/datasets/BLACKBUN/old_korean_newspaper_1897_1910_economy_politic_qa)
 
